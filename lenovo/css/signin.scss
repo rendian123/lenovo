@@ -1,0 +1,381 @@
+@import "base";
+
+
+@charset "utf-8";
+
+/*公共样式表*/
+.signin,.foot_botBox .foot_bot,.html_footerBox .html_footer,.top_box .top,.navBox .nav,.serviceBox .service,.shop_footerBox .shop_footer{
+	width:1200px;
+	margin:0 auto;
+}
+
+/*logo*/
+.regist_logo{
+	position: absolute;
+	display: block;
+	z-index: 2;
+}
+
+/*top_box*/
+.top_box{
+	height:34px;
+	background: #444;
+}
+.top_box .top{
+	height:34px;
+	overflow: hidden;
+	line-height: 34px;
+}
+.top_box .top ul{
+	overflow: hidden;
+	float:left;
+}
+.top_box .top ul li{
+	float: left;
+	margin-right:16px;
+}
+.top_box .top ul li a{
+	font-size: 11px;
+	display: block;
+	color:#cacaca;
+}
+.top_box .top>ul li a:hover{
+	color:#f4f4f4;
+}
+.top_box .top .client{
+	float: left;
+	font-size: 11px;
+	width:140px;
+}
+.top_box .top .client #client_top{
+	width:80px;
+	color:#cacaca;
+	overflow: hidden;
+	background:url(../images/drop.png) no-repeat 40px center;
+}
+.top_box .top .client #client_top:hover{
+		background:url(../images/drop1.png) no-repeat 40px center;
+}
+
+.top_box .top .client #client_bottom{
+	position: absolute;
+	background:#fff;
+	height:108px;
+	width:75px;
+	padding:20px 25px 0px 25px;
+	border:1px solid #d3d3d3;
+	text-align: center;
+	display: none;
+	z-index: 10;
+}
+.top_box .top .client #client_bottom .img{
+	width:76px;
+	height:76px;
+}
+.top_box .top .client #client_bottom .img img{
+	width:76px;
+	height:76px;
+}
+.top_box .top .client #client_bottom span{
+	font-size: 11px;
+	color:#9e9e9e;
+}
+.top_box .top .top_shop_news{
+	overflow: hidden;
+	width:431px;
+	position: relative;
+}
+.top_box .top .top_shop_news .news_horn{
+	float:left;
+	margin-top: 10px;
+	margin-right: 4px;
+}
+.top_box .top .top_shop_news .news_notice{
+	float:left;
+	height:34px;
+	position: absolute;
+	left:24px;
+}
+
+html body{
+	padding-bottom: 80px;
+	background: #f7f7f7;
+}
+
+
+
+
+
+/*signin*/
+.signinBox{
+	padding:32px 0px;
+	background: #f0f0f0;
+	overflow: hidden;
+}
+.signinBox .signin_left{
+	float:left;
+	width:773px;
+	height:525px;
+	background: red;
+}
+
+.signinBox .signin_right{
+	float:left;
+	background: #fff;
+	width:412px;
+	height:525px;
+	position: relative;
+}
+.signinBox .signin_right .signin_right_top{
+	overflow: hidden;
+	height:80px;
+	padding:6px 6px;
+	position: relative;
+}
+.signinBox .signin_right .signin_right_top h1{
+	float: left;
+	font-size: 24px;
+	font-weight: 900;
+	margin-top:25px;
+	margin-left: 28px;
+	color:#424242;
+}
+.signinBox .signin_right .signin_right_top #img1{
+	float: right;
+	position: absolute;
+	top:12px;
+	right:60px;
+}
+.signinBox .signin_right .signin_right_top .img .weixin{
+	float: right;
+	cursor: pointer;
+	height:60px;
+	width:60px;
+	background:url(../images/qrcode.png) no-repeat;
+	display: block;
+}
+.signinBox .signin_right .signin_right_top .img .weixin:hover{
+	background:url(../images/qrcode1.png) no-repeat;
+}
+
+.signinBox .signin_right .signin_right_top .img .PC{
+	float: right;
+	cursor: pointer;
+	height:60px;
+	width:60px;
+	background:url(../images/pc.png) no-repeat;
+	display: none;
+}
+
+.signinBox .signin_right .signin_right_center{
+	padding:0px 30px;
+	font-size: 14px;
+	min-height: 320px;
+	position:relative;
+	margin-bottom: 14px;
+	overflow: hidden;
+}
+.signinBox .signin_right .signin_right_center #pwd_signin{
+	position: absolute;
+	display: block;
+}
+.signinBox .signin_right .signin_right_center #phone_signin{
+	position: absolute;
+	display: none;
+}
+.signinBox .signin_right .signin_right_center #weixin_signin{
+	display: none;
+}
+.signinBox .signin_right .signin_right_center #weixin_signin .weixinCode{
+	height:170px;
+	width:170px;
+	margin-top: 54px;
+	margin-left: 90px;
+}
+.signinBox .signin_right .signin_right_center #weixin_signin p{
+	margin-top: 20px;
+	text-align: center;
+}
+.signinBox .signin_right .signin_right_center .KK {
+    width: 291px;
+    border: 1px solid #d6d6d6;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 14px;
+    padding-right: 50px;
+}
+.signinBox .signin_right .signin_right_center .ckb{
+	display:inline;
+	margin-top: 3px;
+	margin-left: 0px;
+}
+
+.signinBox .signin_right .signin_right_center .btn{
+	width: 358px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	background-color: #e22319;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+
+
+/*滑动验证*/
+.signinBox .signin_right .signin_right_center .person_slider{
+	width: 358px;
+	height: 50px;
+	background:url(../images/block.jpg) no-repeat;
+	margin-bottom: 14px;
+	position: relative;
+}
+.signinBox .signin_right .signin_right_center .person_slider .green{
+	width:0px;
+	height:50px;
+	background: #33cc00;
+	position: absolute;
+	z-index: 1;
+}
+.signinBox .signin_right .signin_right_center .person_slider p{
+	font-size: 13px;
+	position: absolute;
+	top:18px;
+	left:100px;
+	z-index: 2;
+	color:#424242;
+}
+.signinBox .signin_right .signin_right_center .person_slider .block{
+	width:48px;
+	height:48px;
+	background: #fff;
+	position: absolute;
+	border:1px solid #ccc;
+	left:0px;
+	z-index: 3;
+}
+.signinBox .signin_right .signin_right_center .person_slider .block .hd{
+	height:16px;
+	width:16px;
+	background: url(../images/slider_bt.png) no-repeat;
+	position: absolute;
+	top:16px;
+	left:16px;
+}
+
+
+
+
+
+
+.signinBox .signin_right .signin_right_bottom{
+	overflow: hidden;
+	margin-top: 14px;
+	padding-right: 26px;
+}
+.signinBox .signin_right .signin_right_bottom .codesign{
+	float: left;
+	font-size: 14px;
+	color:#ef1c22;
+	cursor: pointer;
+}
+.signinBox .signin_right .signin_right_bottom .register{
+	float: right;
+	overflow: hidden;
+	margin-right: 0px;
+}
+.signinBox .signin_right .signin_right_bottom .register a{
+	font-size: 14px;
+	color:#757575;
+	padding:0px 3px;
+	float: left;
+	display: block;
+}
+.signinBox .signin_right .signin_right_bottom .register a:nth-child(1){
+	border-right:1px solid #a4a3a3;
+}
+.signinBox .signin_right .cooperation{
+	margin-top: 110px;
+	padding:0px 26px;
+	position: absolute;
+	bottom: 14px;
+}
+.signinBox .signin_right .cooperation .cooperation_title{
+	overflow: hidden;
+}
+.signinBox .signin_right .cooperation .cooperation_title span{
+	display: block;
+	height:1px;
+	width:136px;
+	background: #a4a3a3;
+	float: left;
+	margin-top: 8px;
+}
+.signinBox .signin_right .cooperation .cooperation_title div{
+	float: left;
+	font-size: 14px;
+	color:#a4a3a3;
+}
+.signinBox .signin_right .cooperation .cooperation_items{
+	overflow: hidden;
+	margin-top: 16px;
+	padding: 0px 60px;
+}
+.signinBox .signin_right .cooperation .cooperation_items a{
+	float: left;
+	width:31px;
+	height:31px;
+	margin-right:38px;
+}
+.signinBox .signin_right .cooperation .cooperation_items a:nth-child(4){
+	margin-right:0px;
+}
+.signinBox .signin_right .cooperation .cooperation_items span{
+	display: block;
+	width:31px;
+	height:31px;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img1{
+	background: url(../images/qq.png) no-repeat;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img1:hover{
+	background: url(../images/qq1.png) no-repeat;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img2{
+	background: url(../images/weibo.png) no-repeat;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img2:hover{
+	background: url(../images/weibo1.png) no-repeat;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img3{
+	background: url(../images/weixin.png) no-repeat;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img3:hover{
+	background: url(../images/weixin1.png) no-repeat;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img4{
+	background: url(../images/zhifubao.png) no-repeat;
+}
+.signinBox .signin_right .cooperation .cooperation_items .img4:hover{
+	background: url(../images/zhifubao1.png) no-repeat;
+}
+
+.footer1{
+	text-align: center;
+	margin-top: 58px;
+	font-size: 14px;
+}
+.footer2{
+	text-align: center;
+	padding: 18px 0px 60px 9px;
+	font-size: 14px;
+}
+
+
+

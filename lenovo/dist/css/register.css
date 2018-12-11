@@ -1,0 +1,323 @@
+@charset "UTF-8";
+/*清除默认边距*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+b, h1, h2, h3, h4, h5, h6, strong {
+  font-weight: normal; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+/*万能清除法*/
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*公共样式表*/
+.foot_botBox .foot_bot, .html_footerBox .html_footer, .top_box .top, .navBox .nav, .serviceBox .service, .shop_footerBox .shop_footer {
+  width: 1200px;
+  margin: 0 auto; }
+
+/*logo*/
+.regist_logo {
+  position: absolute;
+  display: block;
+  z-index: 2; }
+
+/*top_box*/
+.top_box {
+  height: 34px;
+  background: #444; }
+
+.top_box .top {
+  height: 34px;
+  overflow: hidden;
+  line-height: 34px; }
+
+.top_box .top ul {
+  overflow: hidden;
+  float: left; }
+
+.top_box .top ul li {
+  float: left;
+  margin-right: 16px; }
+
+.top_box .top ul li a {
+  font-size: 11px;
+  display: block;
+  color: #cacaca; }
+
+.top_box .top > ul li a:hover {
+  color: #f4f4f4; }
+
+.top_box .top .client {
+  float: left;
+  font-size: 11px;
+  width: 140px; }
+
+.top_box .top .client #client_top {
+  width: 80px;
+  color: #cacaca;
+  overflow: hidden;
+  background: url(../images/drop.png) no-repeat 40px center; }
+
+.top_box .top .client #client_top:hover {
+  background: url(../images/drop1.png) no-repeat 40px center; }
+
+.top_box .top .client #client_bottom {
+  position: absolute;
+  background: #fff;
+  height: 108px;
+  width: 75px;
+  padding: 20px 25px 0px 25px;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  display: none;
+  z-index: 10; }
+
+.top_box .top .client #client_bottom .img {
+  width: 76px;
+  height: 76px; }
+
+.top_box .top .client #client_bottom .img img {
+  width: 76px;
+  height: 76px; }
+
+.top_box .top .client #client_bottom span {
+  font-size: 11px;
+  color: #9e9e9e; }
+
+.top_box .top .top_shop_news {
+  overflow: hidden;
+  width: 431px;
+  position: relative; }
+
+.top_box .top .top_shop_news .news_horn {
+  float: left;
+  margin-top: 10px;
+  margin-right: 4px; }
+
+.top_box .top .top_shop_news .news_notice {
+  float: left;
+  height: 34px;
+  position: absolute;
+  left: 24px; }
+
+html body {
+  padding-bottom: 80px;
+  background: #f7f7f7; }
+
+/*register*/
+.registerBox {
+  width: 358px;
+  background: #fff;
+  margin: 60px auto;
+  padding: 52px 249px 64px; }
+
+.registerBox .register_title {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center; }
+
+.registerBox .register_tap {
+  margin-top: 38px;
+  margin-bottom: 14px;
+  overflow: hidden; }
+
+.registerBox .register_tap h3 {
+  font-size: 20px;
+  float: left;
+  width: 178px;
+  text-align: center;
+  line-height: 22px;
+  cursor: pointer; }
+
+.registerBox .register_tap .now {
+  color: #e43e38; }
+
+.registerBox .register_tap .person_register {
+  border-right: 1px solid #e4e4e4; }
+
+.registerBox .register_tap .company_register {
+  border-left: 1px solid #e4e4e4; }
+
+.registerBox .register_main .redister_person_info .person_phoneBox {
+  position: relative; }
+
+.registerBox .register_main .redister_person_info .person_phoneBox .person_phoneX {
+  height: 18px;
+  width: 18px;
+  background: url(../images/X.png) no-repeat;
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  right: 9px;
+  cursor: pointer;
+  display: none; }
+
+.registerBox .register_main .redister_person_info .person_phone_pwdBox {
+  position: relative; }
+
+.registerBox .register_main .redister_person_info .person_phone_pwdBox .person_phone_pwdX {
+  height: 18px;
+  width: 18px;
+  background: url(../images/X.png) no-repeat;
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  right: 9px;
+  cursor: pointer;
+  display: none; }
+
+.registerBox .register_main .redister_person_info .person_phone_repwdBox {
+  position: relative; }
+
+.registerBox .register_main .redister_person_info .person_phone_repwdBox .person_phone_repwdX {
+  height: 18px;
+  width: 18px;
+  background: url(../images/X.png) no-repeat;
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  right: 9px;
+  cursor: pointer;
+  display: none; }
+
+.registerBox .register_main .redister_person_info .person_phone {
+  width: 291px;
+  border: 1px solid #d6d6d6;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 14px;
+  padding-right: 50px; }
+
+.register_main input {
+  width: 291px;
+  border: 1px solid #d6d6d6;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 14px;
+  padding-right: 50px; }
+
+/*滑动验证*/
+.registerBox .register_main .redister_person_info .person_slider {
+  width: 358px;
+  height: 50px;
+  background: url(../images/block.jpg) no-repeat;
+  margin-bottom: 14px;
+  position: relative; }
+
+.registerBox .register_main .redister_person_info .person_slider .green {
+  width: 0px;
+  height: 50px;
+  background: #33cc00;
+  position: absolute;
+  z-index: 1; }
+
+.registerBox .register_main .redister_person_info .person_slider p {
+  font-size: 13px;
+  position: absolute;
+  top: 18px;
+  left: 100px;
+  z-index: 2;
+  color: #424242; }
+
+.registerBox .register_main .redister_person_info .person_slider .block {
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  position: absolute;
+  border: 1px solid #ccc;
+  left: 0px;
+  z-index: 3; }
+
+.registerBox .register_main .redister_person_info .person_slider .block .hd {
+  height: 16px;
+  width: 16px;
+  background: url(../images/slider_bt.png) no-repeat;
+  position: absolute;
+  top: 16px;
+  left: 16px; }
+
+.registerBox .register_main .redister_person_info .register_captcha {
+  position: relative;
+  overflow: hidden; }
+
+.registerBox .register_main .redister_person_info .register_captcha .captcha {
+  float: left;
+  width: 180px;
+  padding-left: 15px;
+  border: 1px solid #d6d6d6; }
+
+.registerBox .register_main .redister_person_info .register_captcha .captcha_btn {
+  float: left;
+  width: 110px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #d6d6d6;
+  border-left-color: #d6d6d6;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left: 0;
+  background-color: #f7f7f7;
+  color: #3680c1;
+  font-size: 14px; }
+
+.registerBox .register_main .register_errorBtn .error {
+  font-size: 14px;
+  color: red;
+  display: none; }
+
+.registerBox .register_main .register_errorBtn .btn {
+  width: 358px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background-color: #e22319;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer; }
+
+.registerBox .register_main .register_errorBtn .btn:hover {
+  background: #ef3229; }
+
+.register_agreement {
+  line-height: 24px;
+  font-size: 14px;
+  color: #757575;
+  margin-top: 17px; }
+
+.register_agreement span {
+  display: inline-block; }
+
+.register_agreement .go_login {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 5px; }

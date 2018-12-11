@@ -1,0 +1,299 @@
+@import "base";
+
+
+@charset "utf-8";
+
+/*公共样式表*/
+.service,.shop_footer,.top,.top_logo,.buycart{
+	width:1200px;
+	margin:0 auto;
+}
+
+
+// top
+.top_box{
+	background:#000;
+	.top{
+		height:38px;
+		overflow:hidden;
+		line-height:38px;
+		ul{
+			float:right;
+			overflow:hidden;
+			li{
+				float:left;
+				margin-right:10px;
+				a{
+					font-size:12px;
+					color:#fff;
+					border-right:1px solid #fff;
+					padding-right:10px;
+					text-decoration:none;
+				}
+				a:hover{
+					color:#dd300e;
+				}
+			}
+		}
+	}
+}
+
+
+
+// top_logo
+.top_logoBox{
+	background:#fff;
+	margin-top:30px;
+	.top_logo{
+		overflow:hidden;
+		.left{
+			float:left;
+		}
+		.right{
+			float:right;
+		}
+	}
+}
+
+// 订单列表
+.buycartBox{
+	margin-top:46px;
+	.buycart{
+		position:relative;
+		.tab1{
+			width:100%;
+			tr:nth-child(1){
+				height:38px;
+				border:1px solid #d9d8d6;
+			}
+			th{
+				text-align:center;
+				background:#f8f8f8;
+			}
+			.th1{
+				width:434px;
+			}
+			.th2{
+				width:208px;
+			}
+			.th3{
+				width:146px;
+			}
+			.th4{
+				width:156px;
+			}
+			.th5{
+				width:135px;
+			}
+			.th6{
+				width:119px;
+			}
+		}
+		.kong{
+			position:absolute;
+			display:none;
+			padding-top:90px;
+			padding-left:336px;
+			h3{
+				display:inline-block;
+				padding-left:110px;
+				height:84px;
+				background:url("../images/shoppingcart/cart_car.png") no-repeat;
+				line-height:84px;
+				font-size:18px;
+				font-weight:500;
+				color:#000;
+			}
+			a{
+				display:inline-block;
+				height:30px;
+				width:95px;
+				border:1px solid #444;
+				text-align:center;
+				line-height:30px;
+				border-top-right-radius:4px;
+				border-bottom-left-radius:4px;
+				border-top-left-radius:4px;
+				border-bottom-right-radius:4px;
+				text-decoration:none;
+				font-size:14px;
+				color:#000;
+				margin-left:14px;
+				border:1px solid #b5b5b5;
+				background:url('../images/shoppingcart/kong_bg.png') no-repeat;
+
+			}
+		}
+		.listBox{
+			.tab2{
+			width:100%;
+			margin-top:10px;
+			tr{
+				height:115px;
+				border:1px solid #d9d8d6;
+			}
+			td{
+				text-align:center;
+				background:#fff;
+			}
+			.td1{
+				width:434px;
+				padding-left:40px;
+				overflow:hidden;
+				.img{
+					float:left;
+					height:115px;
+					width:115px;
+					img{
+						height:115px;
+						width:115px;
+					}
+				}
+				.txt{
+					float:left;
+					line-height:115px;
+					a{
+						text-decoration:none;
+						color:#000;
+					}
+					a:hover{
+						color:red;
+					}
+				}
+			}
+			.td2{
+				width:208px;
+				p{
+					color:#000;
+					font-size:12px;
+				}
+			}
+			.td3{
+				width:146px;
+			}
+			.td4{
+				width:156px;
+				.inputBox{
+					float:left;
+					margin-left:35px;
+					margin-top:-2px;
+					height:26px;
+					width:90px;
+					border:1px solid #9d9d9d;
+					overflow:hidden;
+					background:#fff;
+					.reduce{
+						float:left;
+						height:26px;
+						width:26px;
+						cursor:pointer;
+						background:url("../images/details/reduce.png") no-repeat;
+					}
+					.plus{
+						float:right;
+						height:26px;
+						width:26px;
+						cursor:pointer;
+						background:url("../images/details/plus.png") no-repeat;
+					}
+					input{
+						border:0px;
+						border-right:1px solid #9d9d9d;
+						border-left:1px solid #9d9d9d;
+						height:24px;
+						width:36px;
+						position:relative;
+						padding-left:14px;
+						outline: none;
+					}
+				}
+			}
+			.td5{
+				width:135px;
+			}
+			.td6{
+				width:119px;
+			}
+		}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 留白
+.liubai{
+	height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*service*/
+.serviceBox{
+	background: #f6f6f6;
+}
+
+/*shopfooter*/
+.shop_footerBox{
+	height:170px;
+	padding-bottom: 6px;
+}
+.shop_footerBox .shop_footer{
+	overflow: hidden;
+	padding-top: 20px;
+}
+.shop_footerBox .shop_footer dl{
+	float:left;
+	margin-left: 154px;
+}
+.shop_footerBox .shop_footer dl:nth-child(1){
+	margin-left: 0px;
+}
+.shop_footerBox .shop_footer dl dd{
+	font-size: 12px;
+	margin-bottom: 12px;
+	font-weight:700;
+}
+.shop_footerBox .shop_footer dl dt a{
+	font-size: 11px;
+	color:#555;
+}
+.shop_footerBox .shop_footer dl dt a:hover{
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

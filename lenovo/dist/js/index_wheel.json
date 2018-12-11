@@ -1,0 +1,134 @@
+[
+	{
+		"id":0,
+		"title":"Lenov电脑",
+		"deta":[{"id":0,"deta_title":"常规笔记本","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"轻薄笔记本","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"便携笔记本","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"游戏笔记本","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"台式机","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"特色服务","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p2.lefile.cn/product/adminweb/2018/08/24/3fc6024a-bb0f-4bb6-9359-36273ac3e4a4.jpg"
+				]
+	},
+	{
+		"id":1,
+		"title":"ThinkPad电脑",
+		"deta":[{"id":0,"deta_title":"ThinkPad笔记本","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"ThinkPad","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"ThinkPad记本","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"ThinkPad记本","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"ThinkPad","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"ThinkPad","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p2.lefile.cn/product/adminweb/2018/04/12/a7bf80f6-3ef3-4dd1-8ba0-88e5c424d949.jpg",
+				"https://p2.lefile.cn/product/adminweb/2018/04/12/c1602240-33a4-40e9-a1d2-faab1368a339.jpg"
+				]
+	},
+	{
+		"id":2,
+		"title":"手机/通信",
+		"deta":[{"id":0,"deta_title":"手机/通信","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"手机/通信","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"手机/通信","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"手机/通信","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"手机/通信","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"手机/通信","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p4.lefile.cn/product/adminweb/2018/10/19/57442d54-886d-4e6c-9296-da81e02d86e3.jpg"
+				]
+	},
+	{
+		"id":3,
+		"title":"平板电脑",
+		"deta":[{"id":0,"deta_title":"平板电脑","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"平板电脑","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"平板电脑","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"平板电脑","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"平板电脑","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"平板电脑","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p4.lefile.cn/product/adminweb/2018/10/19/57442d54-886d-4e6c-9296-da81e02d86e3.jpg"
+				]
+	},
+	{
+		"id":4,
+		"title":"手机/通信",
+		"deta":[{"id":0,"deta_title":"手机/通信","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"手机/通信","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"手机/通信","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"手机/通信","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"手机/通信","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"手机/通信","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p4.lefile.cn/product/adminweb/2018/10/19/57442d54-886d-4e6c-9296-da81e02d86e3.jpg"
+				]
+	},
+	{
+		"id":5,
+		"title":"选件/办公",
+		"deta":[{"id":0,"deta_title":"手机/通信","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"手机/通信","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"手机/通信","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"手机/通信","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"手机/通信","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"手机/通信","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p4.lefile.cn/product/adminweb/2018/10/19/57442d54-886d-4e6c-9296-da81e02d86e3.jpg"
+				]
+	},
+	{
+		"id":6,
+		"title":"配件/服务",
+		"deta":[{"id":0,"deta_title":"手机/通信","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"手机/通信","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"手机/通信","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"手机/通信","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"手机/通信","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"手机/通信","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p4.lefile.cn/product/adminweb/2018/10/19/57442d54-886d-4e6c-9296-da81e02d86e3.jpg"
+				]
+	},
+	{
+		"id":7,
+		"title":"智能产品",
+		"deta":[{"id":0,"deta_title":"手机/通信","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"手机/通信","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"手机/通信","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"手机/通信","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"手机/通信","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"手机/通信","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p4.lefile.cn/product/adminweb/2018/10/19/57442d54-886d-4e6c-9296-da81e02d86e3.jpg"
+				]
+	},
+	{
+		"id":8,
+		"title":"智选产品",
+		"deta":[{"id":0,"deta_title":"手机/通信","deta_list":["ideapad 330C","ideapad 320C"]},
+				{"id":1,"deta_title":"手机/通信","deta_list":["小新潮7000"]},
+				{"id":2,"deta_title":"手机/通信","deta_list":["小新Ari","Yoga 7 Pro","Yoga 6 Pro"]},
+				{"id":3,"deta_title":"手机/通信","deta_list":["拯救者Y7000","拯救者Y7000P","拯救者Y720"]},
+				{"id":4,"deta_title":"手机/通信","deta_list":["分体式台式机","一体式台式机"]},
+				{"id":5,"deta_title":"手机/通信","deta_list":["私人订制","极速到家（最快3小时送达，师傅上门安装）"]}
+				],
+		"img":["https://p1.lefile.cn/product/adminweb/2018/07/26/26fadc29-b6a5-4c1c-8890-9c0a265590a4.jpg",
+				"https://p4.lefile.cn/product/adminweb/2018/10/19/57442d54-886d-4e6c-9296-da81e02d86e3.jpg"
+				]
+	}
+
+
+
+
+
+
+]

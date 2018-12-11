@@ -1,0 +1,46 @@
+[
+	{
+		"id":0,
+		"scene":"10点场",
+		"deta":[{"id":1,"deta_title":"YOGA 920 13.9英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"立即抢购","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":1,"deta_title":"YOGA 920 13.9英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"立即抢购","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":1,"deta_title":"YOGA 920 13.9英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"立即抢购","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":1,"deta_title":"YOGA 920 13.9英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"立即抢购","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"}
+		]
+	},
+	{
+		"id":1,
+		"scene":"14点场",
+		"deta":[{"id":2,"deta_title":"英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"提醒我","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":1,"deta_title":"英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"立即抢购","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":2,"deta_title":"英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"提醒我","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":3,"deta_title":"英寸触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"活动结束","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"}
+		]
+	},
+	{
+		"id":2,
+		"scene":"16点场",
+		"deta":[{"id":2,"deta_title":"YOGA 920 13.9","price":"￥9999.00","html":"提醒我",
+				"price1":"￥10099","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":2,"deta_title":"YOGA 920 13.9","price":"￥9999.00","html":"提醒我",
+				"price1":"￥10099","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":2,"deta_title":"YOGA 920 13.9","price":"￥9999.00","html":"提醒我",
+				"price1":"￥10099","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":2,"deta_title":"YOGA 920 13.9","price":"￥9999.00","html":"提醒我",
+				"price1":"￥10099","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"}
+		]
+	},
+	{
+		"id":3,
+		"scene":"18点场",
+		"deta":[{"id":3,"deta_title":"YOGA  触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"活动结束","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":3,"deta_title":"YOGA  触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"活动结束","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":3,"deta_title":"YOGA  触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"活动结束","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"},
+				{"id":3,"deta_title":"YOGA  触控笔记本星空银","price":"￥9999.00","price1":"￥10099","html":"活动结束","img":"https://p2.lefile.cn/product/adminweb/2017/10/25/MjrOTf6rR6TPJVQvOlfxmEPW7-6878.w208.jpg"}
+		]
+	}
+	
+
+
+
+]

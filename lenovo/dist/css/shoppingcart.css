@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/*清除默认边距*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+b, h1, h2, h3, h4, h5, h6, strong {
+  font-weight: normal; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+/*万能清除法*/
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*公共样式表*/
+.service, .shop_footer, .top, .top_logo, .buycart {
+  width: 1200px;
+  margin: 0 auto; }
+
+.top_box {
+  background: #000; }
+  .top_box .top {
+    height: 38px;
+    overflow: hidden;
+    line-height: 38px; }
+    .top_box .top ul {
+      float: right;
+      overflow: hidden; }
+      .top_box .top ul li {
+        float: left;
+        margin-right: 10px; }
+        .top_box .top ul li a {
+          font-size: 12px;
+          color: #fff;
+          border-right: 1px solid #fff;
+          padding-right: 10px;
+          text-decoration: none; }
+        .top_box .top ul li a:hover {
+          color: #dd300e; }
+
+.top_logoBox {
+  background: #fff;
+  margin-top: 30px; }
+  .top_logoBox .top_logo {
+    overflow: hidden; }
+    .top_logoBox .top_logo .left {
+      float: left; }
+    .top_logoBox .top_logo .right {
+      float: right; }
+
+.buycartBox {
+  margin-top: 46px; }
+  .buycartBox .buycart {
+    position: relative; }
+    .buycartBox .buycart .tab1 {
+      width: 100%; }
+      .buycartBox .buycart .tab1 tr:nth-child(1) {
+        height: 38px;
+        border: 1px solid #d9d8d6; }
+      .buycartBox .buycart .tab1 th {
+        text-align: center;
+        background: #f8f8f8; }
+      .buycartBox .buycart .tab1 .th1 {
+        width: 434px; }
+      .buycartBox .buycart .tab1 .th2 {
+        width: 208px; }
+      .buycartBox .buycart .tab1 .th3 {
+        width: 146px; }
+      .buycartBox .buycart .tab1 .th4 {
+        width: 156px; }
+      .buycartBox .buycart .tab1 .th5 {
+        width: 135px; }
+      .buycartBox .buycart .tab1 .th6 {
+        width: 119px; }
+    .buycartBox .buycart .kong {
+      position: absolute;
+      display: none;
+      padding-top: 90px;
+      padding-left: 336px; }
+      .buycartBox .buycart .kong h3 {
+        display: inline-block;
+        padding-left: 110px;
+        height: 84px;
+        background: url("../images/shoppingcart/cart_car.png") no-repeat;
+        line-height: 84px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #000; }
+      .buycartBox .buycart .kong a {
+        display: inline-block;
+        height: 30px;
+        width: 95px;
+        border: 1px solid #444;
+        text-align: center;
+        line-height: 30px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        margin-left: 14px;
+        border: 1px solid #b5b5b5;
+        background: url("../images/shoppingcart/kong_bg.png") no-repeat; }
+    .buycartBox .buycart .listBox .tab2 {
+      width: 100%;
+      margin-top: 10px; }
+      .buycartBox .buycart .listBox .tab2 tr {
+        height: 115px;
+        border: 1px solid #d9d8d6; }
+      .buycartBox .buycart .listBox .tab2 td {
+        text-align: center;
+        background: #fff; }
+      .buycartBox .buycart .listBox .tab2 .td1 {
+        width: 434px;
+        padding-left: 40px;
+        overflow: hidden; }
+        .buycartBox .buycart .listBox .tab2 .td1 .img {
+          float: left;
+          height: 115px;
+          width: 115px; }
+          .buycartBox .buycart .listBox .tab2 .td1 .img img {
+            height: 115px;
+            width: 115px; }
+        .buycartBox .buycart .listBox .tab2 .td1 .txt {
+          float: left;
+          line-height: 115px; }
+          .buycartBox .buycart .listBox .tab2 .td1 .txt a {
+            text-decoration: none;
+            color: #000; }
+          .buycartBox .buycart .listBox .tab2 .td1 .txt a:hover {
+            color: red; }
+      .buycartBox .buycart .listBox .tab2 .td2 {
+        width: 208px; }
+        .buycartBox .buycart .listBox .tab2 .td2 p {
+          color: #000;
+          font-size: 12px; }
+      .buycartBox .buycart .listBox .tab2 .td3 {
+        width: 146px; }
+      .buycartBox .buycart .listBox .tab2 .td4 {
+        width: 156px; }
+        .buycartBox .buycart .listBox .tab2 .td4 .inputBox {
+          float: left;
+          margin-left: 35px;
+          margin-top: -2px;
+          height: 26px;
+          width: 90px;
+          border: 1px solid #9d9d9d;
+          overflow: hidden;
+          background: #fff; }
+          .buycartBox .buycart .listBox .tab2 .td4 .inputBox .reduce {
+            float: left;
+            height: 26px;
+            width: 26px;
+            cursor: pointer;
+            background: url("../images/details/reduce.png") no-repeat; }
+          .buycartBox .buycart .listBox .tab2 .td4 .inputBox .plus {
+            float: right;
+            height: 26px;
+            width: 26px;
+            cursor: pointer;
+            background: url("../images/details/plus.png") no-repeat; }
+          .buycartBox .buycart .listBox .tab2 .td4 .inputBox input {
+            border: 0px;
+            border-right: 1px solid #9d9d9d;
+            border-left: 1px solid #9d9d9d;
+            height: 24px;
+            width: 36px;
+            position: relative;
+            padding-left: 14px;
+            outline: none; }
+      .buycartBox .buycart .listBox .tab2 .td5 {
+        width: 135px; }
+      .buycartBox .buycart .listBox .tab2 .td6 {
+        width: 119px; }
+
+.liubai {
+  height: 300px; }
+
+/*service*/
+.serviceBox {
+  background: #f6f6f6; }
+
+/*shopfooter*/
+.shop_footerBox {
+  height: 170px;
+  padding-bottom: 6px; }
+
+.shop_footerBox .shop_footer {
+  overflow: hidden;
+  padding-top: 20px; }
+
+.shop_footerBox .shop_footer dl {
+  float: left;
+  margin-left: 154px; }
+
+.shop_footerBox .shop_footer dl:nth-child(1) {
+  margin-left: 0px; }
+
+.shop_footerBox .shop_footer dl dd {
+  font-size: 12px;
+  margin-bottom: 12px;
+  font-weight: 700; }
+
+.shop_footerBox .shop_footer dl dt a {
+  font-size: 11px;
+  color: #555; }
+
+.shop_footerBox .shop_footer dl dt a:hover {
+  color: #000; }
